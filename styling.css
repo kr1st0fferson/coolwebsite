@@ -1,29 +1,24 @@
-body {
-    background-color: blue;
-}
-
 .box {
-    background-color: white;
-    width: 1000px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
-.nav_bar {
-    justify-content: center;
-  
+#nav {
+    text-align: space-around;
 }
 
-.nav_bar_child {
-    display: flex;
+.links {
     justify-content: space-around;
-    
+} 
+
+.testing {
+    background-color: pink;
+   
+    justify-content: space-around;
 }
-
-
-
-
 
