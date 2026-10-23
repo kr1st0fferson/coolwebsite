@@ -1,0 +1,29 @@
+body {
+    background-color: blue;
+}
+
+.box {
+    background-color: white;
+    width: 1000px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_bar {
+    justify-content: center;
+  
+}
+
+.nav_bar_child {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+
+
