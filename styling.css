@@ -69,8 +69,7 @@ body {
 }
 
 
-/*got permission to copy paste this*/
-
+/*got permission to copy paste this. the code is not mine*/
 ::selection {
 /* Change highlight background color */
 background: #5146ee;
@@ -79,11 +78,11 @@ color: #f296ec ;
 }
 
 
-/*got persmission to copy paste this code*/
+/*got persmission to copy paste this. the code is not mine*/
 a {text-decoration: none; color: rgb(98, 98, 249); }
 
 
-
+/*code is not mine*/
 .buttons_child:hover{ 
 color: #ffbad2;
 } 
