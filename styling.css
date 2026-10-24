@@ -70,3 +70,24 @@ body {
     justify-content: center;
   
 }
+
+
+/*got permission to copy paste this*/
+
+::selection {
+/* Change highlight background color */
+background: #5146ee;
+/* Change highlight text color */
+color: #f296ec ;
+}
+
+
+/*got persmission to copy paste this code*/
+a {text-decoration: none; color: rgb(98, 98, 249); }
+
+
+
+.buttons_child:hover{ 
+color: #ffbad2;
+} 
+
