@@ -22,12 +22,9 @@ body {
 }
 
 .buttons {
-    margin-left: 20vh;
-    margin-top: 10vh;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr, 1fr);
+    grid-template-rows: repeat(1fr, 1fr, 1fr);
     font-size: 80px;
     color: rgb(98, 98, 249)
 }
@@ -90,4 +87,11 @@ a {text-decoration: none; color: rgb(98, 98, 249); }
 .buttons_child:hover{ 
 color: #ffbad2;
 } 
+
+
+
+
+
+
+ 
 
