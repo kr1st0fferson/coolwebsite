@@ -1,24 +1,72 @@
-.box {
-    background-color: pink;
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: kristoffersons_font;
+    
+  
+}
+
+@font-face {
+    font-family: kristoffersons_font;
+    src: url(Updatedkristoffersonsfont-Regular.ttf);
+}
+
+.blinkies {
+   display: flex;
+   flex-direction: row;
+}
+
+.blinkies2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.buttons {
+    margin-left: 20vh;
+    margin-top: 10vh;
     display: flex;
     flex-direction: column;
+    text-align: left;
+    justify-content: space-evenly;
+    font-size: 80px;
+    color: rgb(98, 98, 249)
 }
+
+
 
 .header {
+    font-size: 30px;
+    color: blue;
+    display: flex;
     text-align: center;
+    justify-content: center;
+    
+
 }
 
-#nav {
-    text-align: space-around;
+
+.blinkies {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
 }
 
-.links {
-    justify-content: space-around;
-} 
-
-.testing {
-    background-color: pink;
-   
-    justify-content: space-around;
+.swag {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25vh;
 }
 
+.sparks {
+    margin-top: 2vh;
+}
+
+.sparks_mirrored {
+    margin-top: 2vh;
+}
+
+.guy {
+    display: flex;
+    justify-content: center;
+  
+}
